@@ -1,0 +1,18 @@
+{
+  "autoPin": true,
+  "pins": [
+    {
+      "package": "MKTData",
+      "reason": null,
+      "repositoryURL": "/Users/didierplaindoux/PersonalWork/courses/mkt4/MKTData",
+      "version": "1.0.0"
+    },
+    {
+      "package": "SwiftyJSON",
+      "reason": null,
+      "repositoryURL": "https://github.com/IBM-Swift/SwiftyJSON.git",
+      "version": "15.0.6"
+    }
+  ],
+  "version": 1
+}
