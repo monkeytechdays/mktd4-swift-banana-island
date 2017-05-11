@@ -75,6 +75,12 @@ $ .build/debug/MKTPlayerRunner etc/alouate.json
 [2017-05-11T11:33:21.003+02:00] [INFO] [HTTPServer.swift:88 listen(on:)] Listening on port 9091
 ```
 
+#### Heuristic
+
+Build now your own heuristic. For more information check and analyze the `RandomHeuristic` class. This class can 
+be modified or a new one can be proposed. Don't forget to inject the chosen heuristic in the `main.swift` boot
+file.
+
 ## License
 
 Copyright (C)2017 D. Plaindoux.
