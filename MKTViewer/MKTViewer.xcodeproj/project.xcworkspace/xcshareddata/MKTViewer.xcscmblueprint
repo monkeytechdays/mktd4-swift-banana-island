@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E52771A8E42472BE9149702C0A2C3EA180FE6282",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E52771A8E42472BE9149702C0A2C3EA180FE6282" : 9223372036854775807,
+    "C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3" : 9223372036854775807,
+    "4F278292742C05D3B06E47A80290A80C7EFDDDC7" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "ED92A063-25E2-4FAD-A9A9-CC501EF68A99",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E52771A8E42472BE9149702C0A2C3EA180FE6282" : "dist\/",
+    "C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3" : "dist\/MKTViewer.save\/.build\/checkouts\/SwiftyJSON.git--6955445084174387031\/",
+    "4F278292742C05D3B06E47A80290A80C7EFDDDC7" : "dist\/MKTViewer.save\/.build\/checkouts\/MKTData--8963205878723821989\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MKTViewer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MKTViewer.save\/MKTViewer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/didierplaindoux\/PersonalWork\/courses\/mkt4\/dist\/MKTViewer.save\/.build\/repositories\/MKTData--8963205878723821989",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4F278292742C05D3B06E47A80290A80C7EFDDDC7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/didierplaindoux\/PersonalWork\/courses\/mkt4\/dist\/MKTViewer.save\/.build\/repositories\/SwiftyJSON.git--6955445084174387031",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/monkeytechdays\/mktd4-swift-banana-island.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E52771A8E42472BE9149702C0A2C3EA180FE6282"
+    }
+  ]
+}
