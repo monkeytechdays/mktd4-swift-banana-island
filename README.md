@@ -26,10 +26,14 @@ This operation is mandatory and required by the Swift dependency model.
 $ git init .
 $ git add .
 $ git commit -m "First init"
+```
+Now the source code can be tagged with the `X.X.X` convention.
+
+```
 $ git tag 1.0.0 -m "v1.0.0"
 ```
 
-Therefor this library can be used a dependency.
+Therefor this library can now be used as a dependency.
 
 ### MKTViewer
 
