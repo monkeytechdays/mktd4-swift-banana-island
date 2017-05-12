@@ -19,7 +19,7 @@ class Scores {
     private let panelScore:SKShapeNode
     private let scoreLabels:[SKLabelNode]
     
-    private var presented: Bool
+    private var presented: Int
     
     init(rootNode: SKNode) {
         self.rootNode = rootNode
@@ -34,7 +34,7 @@ class Scores {
                                                    width: UIScreen.main.bounds.width,
                                                    height: 30))
         
-        self.presented = false
+        self.presented = 0
     }
 
     func prepareScores() {
@@ -43,21 +43,21 @@ class Scores {
         
         rootNode.addChild(panelScore)
         
-        self.presented = false
+        self.presented = 0
     }
 
     func presentScores(players:[Player]) {
-        if presented {
+        if presented < players.count {
+            for index in presented..<players.count {
+                prepareScore(player: players[index])
+            }
+            
+            self.presented = players.count
+        } else {
             for player in players {
                 presentScore(player: player)
             }
-        } else {
-            for player in players {
-                prepareScore(player: player)
-            }
         }
-        
-        self.presented = true
     }
     
     //
